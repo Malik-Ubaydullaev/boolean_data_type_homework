@@ -1,4 +1,5 @@
 def main(b):
+    a = b >= 0
     """Check the logic "The variable "b" is positive"
     Args:
         b: int
@@ -6,4 +7,4 @@ def main(b):
         bool
     """
     # Write your code here
-    return 
+    return a
