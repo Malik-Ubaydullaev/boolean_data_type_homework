@@ -1,6 +1,6 @@
 from math import sqrt
 def main(a):
-    result = sqrt(a)
+    b = sqrt(a)
     """check that the number "a" is a perfect square.
     Args:
         a: int
@@ -8,4 +8,4 @@ def main(a):
         bool
     """
     # Write your code here
-    return result % 1 == 0
+    return b % 1 == 0
